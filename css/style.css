@@ -1,0 +1,103 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff;
+    color: #fff;
+} 
+
+h5 {
+    size: 10%;
+}
+
+
+/*------------------------HEADER -------------------------*/
+header{
+    background-color: #202024;
+}
+
+.space {
+ padding: 1% 10%;
+ background-color: #202024
+}
+
+/* -----------------------NAV CAPA------------------------*/
+
+
+.btn-capa { 
+    margin: 30px;
+    padding: 15px;
+    width:150px;
+    height: auto;
+    border-radius: 10px;
+}
+.format-logo {
+    width: 30px;
+    height: 30px;
+}
+
+.apresentation {
+    margin-top: 150px;
+    color: #202024;
+}
+
+/* -----------------------ABOUT------------------------*/
+.about {
+    background-color: #202024;
+    display: flex;
+    align-items: center;
+}
+
+.space-about {
+    margin-top: 8%;
+}
+
+.xtx { 
+    margin-bottom: 30px;
+}
+
+/* -----------------------KNOWS------------------------*/
+.basic{
+    margin: 50px 0px 50px 0px;
+    color: #202024;
+}
+
+.img-icon{
+    width: 15%;
+    text-align: center;
+}
+
+
+
+.blocknow{
+    background-color: #202024;
+    border-radius: 25px;
+    max-width: 250px;
+    float: left;
+    margin: 10px;
+    text-align:  center;
+    
+}
+
+
+.blocknowtwo {
+    margin: 15px;
+    padding: 15px;
+}
+
+
+
+
+/* -----------------------END------------------------*/
+.footer{
+    
+    background-color: #202024;
+    padding: 50px 0px;
+    width: 100%;
+    margin-top: 50px;
+
+}
+
+.footer-icon {
+    width: 40px;
+    height: 40px;
+    margin: 0px 20px;
+}
