@@ -8,6 +8,32 @@ h5 {
     size: 10%;
 }
 
+h1{
+  color: #202024;
+  font-size: 22px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 0 25%;
+}
+
+
+a {
+    margin-right:10px ;
+}
+a:link, a:visited {
+    text-decoration: none;
+    color:#fff;
+	}
+a:hover {
+	text-decoration: none; 
+	color: #0557ff;
+	}
+a:active {
+	text-decoration: none
+	}
+
 
 /*------------------------HEADER -------------------------*/
 header{
@@ -23,11 +49,14 @@ header{
 
 
 .btn-capa { 
-    margin: 30px;
+    margin: 30px 0;
     padding: 15px;
-    width:150px;
+    width:170px;
     height: auto;
     border-radius: 10px;
+    font-weight: bold;
+    color: black;
+
 }
 .format-logo {
     width: 30px;
@@ -39,11 +68,16 @@ header{
     color: #202024;
 }
 
+.point {
+    margin-left: 10px;
+}
+
 /* -----------------------ABOUT------------------------*/
 .about {
     background-color: #202024;
     display: flex;
     align-items: center;
+    
 }
 
 .space-about {
@@ -52,30 +86,37 @@ header{
 
 .xtx { 
     margin-bottom: 30px;
+    font-weight: bold;
 }
 
 /* -----------------------KNOWS------------------------*/
 .basic{
     margin: 50px 0px 50px 0px;
     color: #202024;
+    font-weight: bold;
+    
 }
-
-.img-icon{
-    width: 15%;
-    text-align: center;
-}
-
 
 
 .blocknow{
     background-color: #202024;
-    border-radius: 25px;
-    max-width: 250px;
-    float: left;
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
     margin: 10px;
-    text-align:  center;
+    text-align: center;
+    
     
 }
+@media (max-width: 575px) {
+  .blocknow {
+    display: flex;
+    float: left;
+    width: 100%;
+    
+  }
+}
+
 
 
 .blocknowtwo {
@@ -84,7 +125,117 @@ header{
 }
 
 
+/*------------------------FORM------------------------*/
+.contato {
+    width: 100%;
+    margin: 30px 0;
+    background-color: #202024
+  }
+  .contato .container {
+    padding: 10px;
+  }
+.contato .container .title {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+.contato .container .title h2 {
+    font-family: "Ruda", sans-serif;
+    font-weight: 500;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #0557ff;
+  }
+.contato .container .formulario {
+    width: 100%;
+    
+  }
+ .contato .container .formulario form {
+    width: 100%;
+    
+  }
+.contato .container .formulario form .form-group {
+    width: 100%;
+  }
+.contato .container .formulario form .form-group .controls {
+    width: 100%;
+    min-height: 70px;
+  }
+ .contato .container .formulario form .form-group .controls label {
+    font-family: "Ruda", sans-serif;
+    font-weight: 400;
+    font-weight: bold;
+    color: #fff;
+  }
+   .contato .container .formulario form .form-group .controls input {
+    font-family: "Ruda", sans-serif;
+    font-weight: 400;
+    width: 100%;
+    height: 30px;
+    padding: 10px;
+    border: 1px solid #0557ff;
+    border-radius: 10px;
+  }
+   .contato .container .formulario form .form-group .controls input:active {
+    border: 1px solid #0557ff;
+    border-radius: 2px;
+    border-radius: 10px;
+  }
+   .contato .container .formulario form .form-group .controls input:focus {
+    border: 1px solid #0557ff;
+    border-radius: 2px;
+    border-radius: 10px;
+  }
+   .contato .container .formulario form .form-group .controls textarea {
+    font-family: "Ruda", sans-serif;
+    font-weight: 400;
+    width: 100%;
+    height: 180px;
+    padding: 10px;
+    border: 1px solid #0557ff;
+    outline: none;
+    border-radius: 10px;
+  }
+   .contato .container .formulario form .form-group .controls textarea:active {
+    border: 1px solid #0557ff;
+    border-radius: 2px;
+    border-radius: 10px;
+  }
+   .contato .container .formulario form .form-group .controls textarea:focus {
+    border: 1px solid #0557ff;
+    border-radius: 2px;
+    border-radius: 10px;
+  }
+   .contato .container .formulario form .form-group .btn-form-send {
+    font-family: "Ruda", sans-serif;
+    font-weight: 400;
+    margin-top: 20px;
+    width: 140px;
+    height: 40px;
+    border: none;
+    background-color: #0557ff;
+    color: #FFFFFF;
+    border-radius: 2px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+   .contato .container .formulario form .form-group .btn-form-send:hover {
+    background-color: #0557ff;
+    border-radius: 10px;
+  }
+   .contato .container .formulario form .form-group .btn-form-send:active {
+    background-color: #0557ff;
+    border-radius: 10px;
+  }
 
+  .bara {
+    width: 50%;
+    margin: 0 25%;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+  }
 
 /* -----------------------END------------------------*/
 .footer{
@@ -101,3 +252,4 @@ header{
     height: 40px;
     margin: 0px 20px;
 }
+
